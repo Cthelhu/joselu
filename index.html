@@ -18,17 +18,17 @@
       <div class="logo">
         <a href="#">Joselu</a>
       </div>
-      <nav class="nav">
+      <nav id="nav" class="nav">
         <ul>
-          <li><a href="#inicio">INICIO</a></li>
-          <li><a href="#sobremi">SOBRE MI</a></li>
-          <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#curriculum">CURRCULUM</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#contacto">CONTACTO</a></li>
+          <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+          <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+          <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+          <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+          <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
         </ul>
       </nav>
-      <div class="nav-responsive">
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
@@ -417,6 +417,22 @@
             <p>Perfil de Vimeo donde subo mis trabajos de videos y animaciones</p>
           </div>
         </div>
+      <a href="https://vimeo.com/joselu97">
+        <div class="proyecto">
+          <img src="./img/p7.jpg" alt="turismo">
+          <div class="overlay">
+            <h3>Turismo</h3>
+            <p>Landing page de sitio de turismo</p>
+          </div>
+        </div>
+      <a href="https://vimeo.com/joselu97">
+        <div class="proyecto">
+          <img src="./img/p8.jpg" alt="gameshop">
+          <div class="overlay">
+            <h3>Gameshop</h3>
+            <p>Sitio web para tienda de videojuegos</p>
+          </div>
+        </div>
       </a>
 
     </div>
@@ -476,7 +492,7 @@
       <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
     </div>
 
-
+    <script src="script.js"></script>
   </footer>
 </body>
 
